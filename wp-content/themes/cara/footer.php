@@ -51,8 +51,8 @@
         <h4>Install App</h4>
         <p>From App Store or Google Play</p>
         <div class="row">
-            <img src="img/pay/app.jpg" />
-            <img src="img/pay/play.jpg" />
+            <img src="<?php bloginfo('template_directory') ?>/img/pay/app.jpg" />
+            <img src="<?php bloginfo('template_directory') ?>/img/pay/play.jpg" />
         </div>
         <p>Secured Payment Gateways</p>
         <img src="<?php bloginfo('template_directory') ?>/img/pay/pay.png" />

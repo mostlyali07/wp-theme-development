@@ -18,7 +18,10 @@
         <a href="/"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" alt="logo" /></a>
 
         <div>
-            <ul id="navbar">
+            <?php wp_nav_menu(array('
+            theme_location' => 'primary-menu', 'menu_id' => 'navbar'
+            )) ?>
+            <!-- <ul id="navbar">
                 <li><a class="active" href="/">Home</a></li>
                 <li><a href="/shop.html">Shop</a></li>
                 <li><a href="/blog.html">Blog</a></li>
@@ -27,6 +30,6 @@
                 <li>
                     <a href="/cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>

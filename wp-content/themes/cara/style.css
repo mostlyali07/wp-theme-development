@@ -507,3 +507,11 @@ header p {
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+.wp-block-gallery {
+  display: flex;
+}
+.wp-block-image img {
+  height: 17em;
+  width: 18em;
+  object-fit: cover;
+}

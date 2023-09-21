@@ -15,10 +15,12 @@
 
 <body>
     <div id="header">
-        <a href="/"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" alt="logo" /></a>
+        <?php $logoimg = get_header_image(); ?>
+        <a href="<?php echo site_url(); ?>"><img src="<?php echo $logoimg; ?>" alt="logo" /></a>
 
         <div>
-            <?php wp_nav_menu(array('
+            <?php wp_nav_menu(array(
+                '
             theme_location' => 'primary-menu', 'menu_id' => 'navbar'
             )) ?>
             <!-- <ul id="navbar">

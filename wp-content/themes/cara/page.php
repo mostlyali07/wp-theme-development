@@ -18,9 +18,16 @@ get_header();
 
     <h2>Our Mission</h2>
     <p>Our mission is to provide the best Lorem Ipsum solutions to our clients. We strive for excellence in everything we do. Sed nec sapien ac est vehicula fringilla a id ligula.</p> -->
-
+    <?php the_post_thumbnail(array(500, 500)); ?>
 
     <?php the_content(); ?>
+
+    <?php $imagepath = wp_get_attachment_image_src(get_post_thumbnail_id(), 'large');
+    // print_r($imagepath);
+    ?>
+
+    <img src="<?php echo $imagepath[0] ?>" alt="" width="500">
+
 </div>
 
 

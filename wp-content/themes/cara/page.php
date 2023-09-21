@@ -1,5 +1,6 @@
 <?php
 get_header();
+//the_post();
 ?>
 
 <header>
@@ -17,6 +18,9 @@ get_header();
 
     <h2>Our Mission</h2>
     <p>Our mission is to provide the best Lorem Ipsum solutions to our clients. We strive for excellence in everything we do. Sed nec sapien ac est vehicula fringilla a id ligula.</p> -->
+
+
+    <?php the_content(); ?>
 </div>
 
 

@@ -61,6 +61,7 @@
 <div class="copyright">
     <p>&copy; 2023, Tech2 etc - HTML CSS Ecommerce Template</p>
 </div>
+<?php wp_footer(); ?>
 <script src="app.js"></script>
 </body>
 

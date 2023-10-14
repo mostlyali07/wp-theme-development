@@ -23,15 +23,8 @@
                 '
             theme_location' => 'primary-menu', 'menu_id' => 'navbar'
             )) ?>
-            <!-- <ul id="navbar">
-                <li><a class="active" href="/">Home</a></li>
-                <li><a href="/shop.html">Shop</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li>
-                    <a href="/cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
-                </li>
-            </ul> -->
+
         </div>
     </div>
+
+    <?php wp_head(); ?>

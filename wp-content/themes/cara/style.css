@@ -73,11 +73,21 @@ button.white {
   color: #1a1a1a;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
+#navbar li a:hover {
   color: #088178;
 }
-
+.current-menu-item a {
+  color: #088178 !important;
+}
+.current-menu-item a::after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
 #navbar li a.active::after,
 #navbar li a:hover::after {
   content: "";
@@ -514,4 +524,58 @@ header p {
   height: 17em;
   width: 18em;
   object-fit: cover;
+}
+.contact-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.contact-container h1 {
+  text-align: center;
+}
+
+.contact-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }

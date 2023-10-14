@@ -626,3 +626,33 @@ header p {
   font-size: 24px;
   margin-right: 10px;
 }
+.post-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.post-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  color: #777;
+}
+
+.post-content {
+  margin-top: 20px;
+}
+.post-content img{
+width: 100%;
+}
+.post-icon {
+  font-size: 20px;
+  margin-right: 5px;
+}

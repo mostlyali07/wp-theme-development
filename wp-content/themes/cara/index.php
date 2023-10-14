@@ -29,7 +29,7 @@ get_header();
                 <p>
                     <?php the_excerpt(); ?>
                 </p>
-                <p class="read-more"><a href="#">Read More <i class="fas fa-arrow-right blog-icon"></i></a></p>
+                <p class="read-more"><a href="<?php the_permalink() ?>">Read More <i class="fas fa-arrow-right blog-icon"></i></a></p>
             </div>
         <?php } ?>
         <?php echo wp_pagenavi(); ?>

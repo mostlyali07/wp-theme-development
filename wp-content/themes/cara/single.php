@@ -30,6 +30,9 @@ the_post();
     <div class="post-content">
         <img src="<?php echo $imagepath[0] ?>" alt="<?php the_title(); ?>">
         <?php the_content(); ?>
+        <!-- for only comment form -->
+        <!-- php comment_form();  -->
+        <?php comments_template(); ?>
     </div>
 </div>
 
